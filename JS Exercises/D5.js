@@ -10,6 +10,7 @@ REGOLE
 /* ESERCIZIO 1
     Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
 */
+console.log("Esercizio 1,2,3,4")
 const pets = ['dog', 'cat', 'hamster', 'redfish']
 console.log("Elementi dell'array:");
 for (let i = 0; i < pets.length; i++) {
@@ -41,6 +42,7 @@ console.log("FINE ESERCIZIO");
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
 */
+console.log("Esercizio 5,6,7,8")
 const cars = [
   {
     brand: 'Ford',
@@ -100,9 +102,11 @@ for (let i = 0; i < cars.length; i++) {
     console.log('Buzz');
   }
 }
+console.log("FINE ESERCIZIO")
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
+console.log("Esercizio 9,10")
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
@@ -133,3 +137,4 @@ for (let i = 0; i < charactersArray.length; i++) {
   }
 }
   console.log(alphabetPositions);
+console.log("FINE ESERCIZIO")

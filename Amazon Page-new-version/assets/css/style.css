@@ -1,0 +1,129 @@
+/* Your styles here */
+.container {
+  flex-direction: column;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.back-to-top {
+  color: white;
+  text-decoration: underline;
+  margin: 5px 0;
+}
+
+.back-to-top-row {
+  background: #364759;
+}
+
+a {
+  color: #5c9da6;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.amazon-logo {
+  height: 2em;
+}
+
+.amazon-logo-2 {
+  height: 3em;
+  margin: 3em 0;
+}
+
+.placeholder {
+  padding: 0.5em;
+}
+
+.amazon-row {
+  background-color: #22303f;
+}
+
+.link-row {
+  background-color: #364759;
+  padding: 0.3em 1em;
+  color: white;
+}
+
+.choice {
+  margin-right: 0.8em;
+}
+
+.cta {
+  background: #f66502;
+  width: 100%;
+  margin: 15px 0;
+  padding: 3px 0;
+  text-align: center;
+  color: white;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.bg-1 {
+  width: 100%;
+}
+
+.link {
+  margin-left: 7px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.row.column {
+  flex-direction: column;
+}
+
+.row.left {
+  justify-content: flex-start;
+}
+
+.row.center {
+  justify-content: center;
+}
+
+.row.stretch {
+  justify-content: stretch;
+}
+
+.row.stretch .child {
+  width: 100%;
+}
+
+.container-25 {
+  gap: 20px;
+}
+
+.child-25 {
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.child-25 img {
+  width: 100%;
+  height: 19em;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.row-find {
+  margin-bottom: 10px;
+}
