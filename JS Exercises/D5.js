@@ -123,18 +123,52 @@ console.log(numericArray[i]);
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
-
-const alphabetMap = {
-  'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7, 'h': 8, 'i': 9,
-  'l': 10, 'm': 11, 'n': 12, 'o': 13, 'p': 14, 'q': 15, 'r': 16, 's': 17,
-  't': 18, 'u': 19, 'v': 20, 'z': 21
-};
-const alphabetPositions = [];
-for (let i = 0; i < charactersArray.length; i++) {
-  const letter = charactersArray[i];
-  if (alphabetMap[letter]) {
-    alphabetPositions.push(alphabetMap[letter]);
+console.log(charactersArray.map(function (letter) {
+  switch (letter) {
+    case "a":
+      return 1;
+      case "b":
+      return 2;
+      case "c":
+      return 3;
+      case "d":
+      return 4;
+      case "e":
+      return 5;
+      case "f":
+      return 6;
+      case "g":
+      return 7;
+      case "h":
+      return 8;
+      case "h":
+      return 9;
+      case "i":
+      return 10;
+      case "l":
+      return 11;
+      case "m":
+      return 12;
+      case "n":
+      return 13;
+      case "o":
+      return 14;
+      case "p":
+      return 15;
+      case "q":
+      return 16;
+      case "r":
+      return 17;
+      case "s":
+      return 18;
+      case "t":
+      return 19;
+      case "u":
+      return 20;
+      case "v":
+      return 21;
+      case "z":
+      return 22;
+      
   }
-}
-  console.log(alphabetPositions);
-console.log("FINE ESERCIZIO")
+}))
